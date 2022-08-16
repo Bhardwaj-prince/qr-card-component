@@ -1,0 +1,40 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container-fluid {
+    margin: auto;
+    padding: 10%;
+    width: 40%;
+}
+
+.card {
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.card-img {
+    border-radius: 10px;
+}
+
+h4 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+.card-body {
+    text-align: center;
+}
+
+@media screen and (max-width:375px) {
+    .container-fluid {
+        width: 100%;
+        margin: 30% 0;
+    }
+}
